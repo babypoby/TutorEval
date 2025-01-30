@@ -4,8 +4,8 @@ import numpy as np
 
 
 points = [
-    (0.236, 0.255, 'Bridge 1', '#1f77b4'),
-    (0.697, 0.697, 'Bridge 2', '#ff7f0e'),
+    (0.236, 0.255, 'Bridge Novice', '#1f77b4'),
+    (0.697, 0.697, 'Bridge Expert', '#ff7f0e'),
     (0.864, 0.927, 'MathDial', '#2ca02c')
 ]
 

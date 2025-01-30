@@ -135,6 +135,7 @@ r4_nex = [0.7, 0.303, 0.177, 0.197, 0.167, 0.131, 0.202, 0.727, 0.318, 0.419, 0.
 r5 = [0.65, 0.414, 0.255, 0.331, 0.318, 0.299, 0.217, 0.656, 0.408, 0.287, 0.369, 0.325, 0.363, 0.261]
 r5_nex = [0.847, 0.49, 0.293, 0.414, 0.293, 0.516, 0.229, 0.834, 0.529, 0.325, 0.478, 0.382, 0.586, 0.261]
 
+
 print (f"Mean of Rubric 1: {calculate_mean(r1)}")
 print (f"Mean of Rubric 1 without examples: {calculate_mean(r1_nex)}")
 
@@ -146,3 +147,5 @@ print (f"Mean of Rubric 4 without examples: {calculate_mean(r4_nex)}")
 
 print (f"Mean of Rubric 5: {calculate_mean(r5)}")
 print (f"Mean of Rubric 5 without examples: {calculate_mean(r5_nex)}")
+
+print(len(r1))

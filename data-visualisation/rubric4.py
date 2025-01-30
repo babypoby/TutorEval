@@ -4,8 +4,8 @@ import numpy as np
 
 # x are model scores, y are human scores, and labels are the names datasets
 points = [
-    (0.293, 0.390, 'Bridge 1', '#1f77b4'),
-    (0.5, 0.574, 'Bridge 2', '#ff7f0e'),
+    (0.293, 0.390, 'Bridge Novice', '#1f77b4'),
+    (0.5, 0.574, 'Bridge Expert', '#ff7f0e'),
     (0.087, 0.175, 'MathDial',  '#2ca02c')
 ]
 

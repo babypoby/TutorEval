@@ -7,8 +7,8 @@ y = np.array([0.263, 0.767, 0.829])  # y-coordinates
 
 
 points = [
-    (0.447, 0.263, 'Bridge 1', '#1f77b4'),
-    (0.814, 0.767, 'Bridge 2', '#ff7f0e'),
+    (0.447, 0.263, 'Bridge Novice', '#1f77b4'),
+    (0.814, 0.767, 'Bridge Expert', '#ff7f0e'),
     (0.710, 0.829, 'MathDial', '#2ca02c')
 ]
 
