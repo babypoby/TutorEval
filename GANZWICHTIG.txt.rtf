@@ -56,6 +56,7 @@ Number of wrong answers for rubric 2, no examples, prompt, yes-no: 10\
 Number of wrong answers for rubric 2, no examples, prompt, no-yes: 4\
 Number of wrong answers for rubric 2, no examples, prompt, no-no: 0\
 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf2 Number of wrong answers for rubric 2, examples, prompt: 12\
 Number of wrong answers for rubric 2, examples, prompt, yes-yes: 0\
 Number of wrong answers for rubric 2, examples, prompt, yes-no: 10\
@@ -718,4 +719,286 @@ or use big model to create label (distillation)\
 \
 cohens_kappa_numb_conv\
 \
-TEMPERATURE 0}
+TEMPERATURE 0\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\uc0\u10095  python classify.py\
+Map: 100%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 3150/3150 [00:00<00:00, 8210.55 examples/s]\
+Casting the dataset: 100%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 3150/3150 [00:00<00:00, 1155102.08 examples/s]\
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']\
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\
+Using MPS\
+/Users/taekim/bachelorarbeit/finetuning/classify.py:114: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.\
+  trainer = Trainer(\
+  0%|                                                                                                                                | 0/7080 [00:00<?, ?it/sValidation Report:\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 79/79 [00:28<00:00,  3.01it/s]\
+              precision    recall  f1-score   support\
+\
+           0       0.70      0.23      0.35       234\
+           1       0.24      0.72      0.36        81\
+\
+    accuracy                           0.36       315\
+   macro avg       0.47      0.47      0.36       315\
+weighted avg       0.58      0.36      0.35       315\
+\
+Confusion Matrix:\
+[[ 54 180]\
+ [ 23  58]]\
+\{'eval_loss': 0.7028201222419739, 'eval_precision': 0.24369747899159663, 'eval_recall': 0.7160493827160493, 'eval_f1_binary': 0.36363636363636365, 'eval_accuracy': 0.35555555555555557, 'eval_runtime': 31.5946, 'eval_samples_per_second': 9.97, 'eval_steps_per_second': 2.5, 'epoch': 0\}                                \
+\{'loss': 0.5816, 'grad_norm': 1.6656094789505005, 'learning_rate': 0.00029576271186440676, 'epoch': 0.28\}                                                     \
+\{'loss': 0.6028, 'grad_norm': 0.910965085029602, 'learning_rate': 0.00029152542372881354, 'epoch': 0.56\}                                                      \
+\{'loss': 0.6179, 'grad_norm': 3.7314915657043457, 'learning_rate': 0.0002872881355932203, 'epoch': 0.85\}                                                      \
+\{'loss': 0.581, 'grad_norm': 1.4429733753204346, 'learning_rate': 0.0002830508474576271, 'epoch': 1.13\}                                                       \
+\{'loss': 0.5741, 'grad_norm': 1.1834443807601929, 'learning_rate': 0.0002788135593220339, 'epoch': 1.41\}                                                      \
+\{'loss': 0.5973, 'grad_norm': 3.2819907665252686, 'learning_rate': 0.00027457627118644066, 'epoch': 1.69\}                                                     \
+\{'loss': 0.5875, 'grad_norm': 3.8285980224609375, 'learning_rate': 0.00027033898305084744, 'epoch': 1.97\}                                                     \
+\{'loss': 0.5566, 'grad_norm': 0.9831376075744629, 'learning_rate': 0.0002661016949152542, 'epoch': 2.25\}                                                      \
+\{'loss': 0.5787, 'grad_norm': 2.221419334411621, 'learning_rate': 0.000261864406779661, 'epoch': 2.54\}                                                        \
+\{'loss': 0.6, 'grad_norm': 1.3776752948760986, 'learning_rate': 0.0002576271186440678, 'epoch': 2.82\}                                                         \
+ 14%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9615                                                                                                   | 1000/7080 [32:49<3:18:40,  1.96s/it/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+Validation Report:\
+              precision    recall  f1-score   support\
+\
+           0       0.74      1.00      0.85       234\
+           1       0.00      0.00      0.00        81\
+\
+    accuracy                           0.74       315\
+   macro avg       0.37      0.50      0.43       315\
+weighted avg       0.55      0.74      0.63       315\
+\
+Confusion Matrix:\
+[[234   0]\
+ [ 81   0]]\
+\{'eval_loss': 0.5779478549957275, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1_binary': 0.0, 'eval_accuracy': 0.7428571428571429, 'eval_runtime': 26.5141, 'eval_samples_per_second': 11.88, 'eval_steps_per_second': 2.98, 'epoch': 2.82\}                                                                           \
+\{'loss': 0.5508, 'grad_norm': 0.7078498005867004, 'learning_rate': 0.00025338983050847457, 'epoch': 3.1\}                                                      \
+\{'loss': 0.5798, 'grad_norm': 1.1618326902389526, 'learning_rate': 0.00024915254237288135, 'epoch': 3.38\}                                                     \
+\{'loss': 0.5962, 'grad_norm': 1.04324209690094, 'learning_rate': 0.00024491525423728813, 'epoch': 3.66\}                                                       \
+\{'loss': 0.5685, 'grad_norm': 0.6744422316551208, 'learning_rate': 0.0002406779661016949, 'epoch': 3.94\}                                                      \
+\{'loss': 0.5747, 'grad_norm': 1.9148236513137817, 'learning_rate': 0.00023644067796610167, 'epoch': 4.23\}                                                     \
+\{'loss': 0.5921, 'grad_norm': 0.8632358312606812, 'learning_rate': 0.00023220338983050845, 'epoch': 4.51\}                                                     \
+\{'loss': 0.5306, 'grad_norm': 1.6080849170684814, 'learning_rate': 0.00022796610169491526, 'epoch': 4.79\}                                                     \
+\{'loss': 0.5936, 'grad_norm': 1.300141453742981, 'learning_rate': 0.000223728813559322, 'epoch': 5.07\}                                                        \
+\{'loss': 0.5796, 'grad_norm': 1.057740569114685, 'learning_rate': 0.0002194915254237288, 'epoch': 5.35\}                                                       \
+\{'loss': 0.5522, 'grad_norm': 1.3165680170059204, 'learning_rate': 0.0002152542372881356, 'epoch': 5.63\}                                                      \
+ 28%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9609                                                                                  | 2000/7080 [1:04:45<2:39:06,  1.88s/it/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+Validation Report:\
+              precision    recall  f1-score   support\
+\
+           0       0.74      1.00      0.85       234\
+           1       0.00      0.00      0.00        81\
+\
+    accuracy                           0.74       315\
+   macro avg       0.37      0.50      0.43       315\
+weighted avg       0.55      0.74      0.63       315\
+\
+Confusion Matrix:\
+[[234   0]\
+ [ 81   0]]\
+\{'eval_loss': 0.5708981156349182, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1_binary': 0.0, 'eval_accuracy': 0.7428571428571429, 'eval_runtime': 26.447, 'eval_samples_per_second': 11.911, 'eval_steps_per_second': 2.987, 'epoch': 5.63\}                                                                          \
+\{'loss': 0.5826, 'grad_norm': 0.693830668926239, 'learning_rate': 0.00021101694915254236, 'epoch': 5.92\}                                                      \
+\{'loss': 0.5746, 'grad_norm': 1.8963767290115356, 'learning_rate': 0.00020677966101694914, 'epoch': 6.2\}                                                      \
+\{'loss': 0.5902, 'grad_norm': 1.3833870887756348, 'learning_rate': 0.00020254237288135592, 'epoch': 6.48\}                                                     \
+\{'loss': 0.5632, 'grad_norm': 0.566660463809967, 'learning_rate': 0.0001983050847457627, 'epoch': 6.76\}                                                       \
+\{'loss': 0.5732, 'grad_norm': 0.6778882145881653, 'learning_rate': 0.00019406779661016945, 'epoch': 7.04\}                                                     \
+\{'loss': 0.5793, 'grad_norm': 1.1823683977127075, 'learning_rate': 0.00018983050847457626, 'epoch': 7.32\}                                                     \
+\{'loss': 0.544, 'grad_norm': 0.7181795239448547, 'learning_rate': 0.00018559322033898304, 'epoch': 7.61\}                                                      \
+\{'loss': 0.5798, 'grad_norm': 2.611238718032837, 'learning_rate': 0.0001813559322033898, 'epoch': 7.89\}                                                       \
+\{'loss': 0.5992, 'grad_norm': 2.5979511737823486, 'learning_rate': 0.0001771186440677966, 'epoch': 8.17\}                                                      \
+\{'loss': 0.5582, 'grad_norm': 2.3461601734161377, 'learning_rate': 0.0001728813559322034, 'epoch': 8.45\}                                                      \
+ 42%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9609                                                                  | 3000/7080 [1:37:00<2:13:23,  1.96s/it/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+Validation Report:\
+              precision    recall  f1-score   support\
+\
+           0       0.74      1.00      0.85       234\
+           1       0.00      0.00      0.00        81\
+\
+    accuracy                           0.74       315\
+   macro avg       0.37      0.50      0.43       315\
+weighted avg       0.55      0.74      0.63       315\
+\
+Confusion Matrix:\
+[[234   0]\
+ [ 81   0]]\
+\{'eval_loss': 0.5709442496299744, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1_binary': 0.0, 'eval_accuracy': 0.7428571428571429, 'eval_runtime': 27.5617, 'eval_samples_per_second': 11.429, 'eval_steps_per_second': 2.866, 'epoch': 8.45\}                                                                         \
+\{'loss': 0.578, 'grad_norm': 0.6454399824142456, 'learning_rate': 0.00016864406779661014, 'epoch': 8.73\}                                                      \
+\{'loss': 0.5726, 'grad_norm': 1.1508954763412476, 'learning_rate': 0.00016440677966101692, 'epoch': 9.01\}                                                     \
+\{'loss': 0.5679, 'grad_norm': 1.4783470630645752, 'learning_rate': 0.00016016949152542373, 'epoch': 9.3\}                                                      \
+\{'loss': 0.5893, 'grad_norm': 0.45127806067466736, 'learning_rate': 0.0001559322033898305, 'epoch': 9.58\}                                                     \
+\{'loss': 0.5802, 'grad_norm': 0.5364924073219299, 'learning_rate': 0.00015169491525423727, 'epoch': 9.86\}                                                     \
+\{'loss': 0.5364, 'grad_norm': 1.6756374835968018, 'learning_rate': 0.00014745762711864405, 'epoch': 10.14\}                                                    \
+\{'loss': 0.5933, 'grad_norm': 1.8561609983444214, 'learning_rate': 0.00014322033898305083, 'epoch': 10.42\}                                                    \
+\{'loss': 0.5843, 'grad_norm': 1.132293939590454, 'learning_rate': 0.0001389830508474576, 'epoch': 10.71\}                                                      \
+\{'loss': 0.5558, 'grad_norm': 1.195891261100769, 'learning_rate': 0.0001347457627118644, 'epoch': 10.99\}                                                      \
+\{'loss': 0.5791, 'grad_norm': 1.2234572172164917, 'learning_rate': 0.00013050847457627118, 'epoch': 11.27\}                                                    \
+ 56%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9610                                                  | 4000/7080 [2:09:39<1:44:52,  2.04s/it/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+Validation Report:\
+              precision    recall  f1-score   support\
+\
+           0       0.74      1.00      0.85       234\
+           1       0.00      0.00      0.00        81\
+\
+    accuracy                           0.74       315\
+   macro avg       0.37      0.50      0.43       315\
+weighted avg       0.55      0.74      0.63       315\
+\
+Confusion Matrix:\
+[[234   0]\
+ [ 81   0]]\
+\{'eval_loss': 0.5703312754631042, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1_binary': 0.0, 'eval_accuracy': 0.7428571428571429, 'eval_runtime': 28.1773, 'eval_samples_per_second': 11.179, 'eval_steps_per_second': 2.804, 'epoch': 11.27\}                                                                        \
+\{'loss': 0.5557, 'grad_norm': 0.5234692692756653, 'learning_rate': 0.00012627118644067796, 'epoch': 11.55\}                                                    \
+\{'loss': 0.5803, 'grad_norm': 0.9005122184753418, 'learning_rate': 0.00012203389830508474, 'epoch': 11.83\}                                                    \
+\{'loss': 0.555, 'grad_norm': 1.4967321157455444, 'learning_rate': 0.0001177966101694915, 'epoch': 12.11\}                                                      \
+\{'loss': 0.5974, 'grad_norm': 2.1648831367492676, 'learning_rate': 0.0001135593220338983, 'epoch': 12.39\}                                                     \
+\{'loss': 0.5745, 'grad_norm': 1.0768896341323853, 'learning_rate': 0.00010932203389830507, 'epoch': 12.68\}                                                    \
+\{'loss': 0.5677, 'grad_norm': 1.2559700012207031, 'learning_rate': 0.00010508474576271185, 'epoch': 12.96\}                                                    \
+\{'loss': 0.5504, 'grad_norm': 1.1570700407028198, 'learning_rate': 0.00010084745762711863, 'epoch': 13.24\}                                                    \
+\{'loss': 0.5786, 'grad_norm': 1.146467924118042, 'learning_rate': 9.661016949152541e-05, 'epoch': 13.52\}                                                      \
+\{'loss': 0.5608, 'grad_norm': 1.3267550468444824, 'learning_rate': 9.23728813559322e-05, 'epoch': 13.8\}                                                       \
+\{'loss': 0.5895, 'grad_norm': 1.1097955703735352, 'learning_rate': 8.813559322033898e-05, 'epoch': 14.08\}                                                     \
+ 71%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9610                                  | 5000/7080 [2:42:17<1:04:45,  1.87s/it/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+Validation Report:\
+              precision    recall  f1-score   support\
+\
+           0       0.74      1.00      0.85       234\
+           1       0.00      0.00      0.00        81\
+\
+    accuracy                           0.74       315\
+   macro avg       0.37      0.50      0.43       315\
+weighted avg       0.55      0.74      0.63       315\
+\
+Confusion Matrix:\
+[[234   0]\
+ [ 81   0]]\
+\{'eval_loss': 0.5701196193695068, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1_binary': 0.0, 'eval_accuracy': 0.7428571428571429, 'eval_runtime': 27.3058, 'eval_samples_per_second': 11.536, 'eval_steps_per_second': 2.893, 'epoch': 14.08\}                                                                        \
+\{'loss': 0.5412, 'grad_norm': 1.4410574436187744, 'learning_rate': 8.389830508474574e-05, 'epoch': 14.37\}                                                     \
+\{'loss': 0.5928, 'grad_norm': 1.501818060874939, 'learning_rate': 7.966101694915254e-05, 'epoch': 14.65\}                                                      \
+\{'loss': 0.5746, 'grad_norm': 1.0877023935317993, 'learning_rate': 7.542372881355932e-05, 'epoch': 14.93\}                                                     \
+\{'loss': 0.5489, 'grad_norm': 1.7751530408859253, 'learning_rate': 7.11864406779661e-05, 'epoch': 15.21\}                                                      \
+\{'loss': 0.5567, 'grad_norm': 0.7757259011268616, 'learning_rate': 6.694915254237287e-05, 'epoch': 15.49\}                                                     \
+\{'loss': 0.5679, 'grad_norm': 1.9539484977722168, 'learning_rate': 6.271186440677965e-05, 'epoch': 15.78\}                                                     \
+\{'loss': 0.606, 'grad_norm': 1.4553213119506836, 'learning_rate': 5.847457627118644e-05, 'epoch': 16.06\}                                                      \
+\{'loss': 0.5668, 'grad_norm': 1.0937784910202026, 'learning_rate': 5.4237288135593214e-05, 'epoch': 16.34\}                                                    \
+\{'loss': 0.5799, 'grad_norm': 0.5735136866569519, 'learning_rate': 4.9999999999999996e-05, 'epoch': 16.62\}                                                    \
+\{'loss': 0.5629, 'grad_norm': 1.9045270681381226, 'learning_rate': 4.576271186440678e-05, 'epoch': 16.9\}                                                      \
+ 85%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9613                  | 6000/7080 [3:15:20<30:49,  1.71s/it/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+Validation Report:\
+              precision    recall  f1-score   support\
+\
+           0       0.74      1.00      0.85       234\
+           1       0.00      0.00      0.00        81\
+\
+    accuracy                           0.74       315\
+   macro avg       0.37      0.50      0.43       315\
+weighted avg       0.55      0.74      0.63       315\
+\
+Confusion Matrix:\
+[[234   0]\
+ [ 81   0]]\
+\{'eval_loss': 0.5730271339416504, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1_binary': 0.0, 'eval_accuracy': 0.7428571428571429, 'eval_runtime': 27.0437, 'eval_samples_per_second': 11.648, 'eval_steps_per_second': 2.921, 'epoch': 16.9\}                                                                         \
+\{'loss': 0.5479, 'grad_norm': 2.6012160778045654, 'learning_rate': 4.152542372881356e-05, 'epoch': 17.18\}                                                     \
+\{'loss': 0.5821, 'grad_norm': 1.003402829170227, 'learning_rate': 3.728813559322034e-05, 'epoch': 17.47\}                                                      \
+\{'loss': 0.5899, 'grad_norm': 0.4901769757270813, 'learning_rate': 3.3050847457627114e-05, 'epoch': 17.75\}                                                    \
+\{'loss': 0.5585, 'grad_norm': 1.888224482536316, 'learning_rate': 2.8813559322033896e-05, 'epoch': 18.03\}                                                     \
+\{'loss': 0.5851, 'grad_norm': 1.8244247436523438, 'learning_rate': 2.4576271186440674e-05, 'epoch': 18.31\}                                                    \
+\{'loss': 0.5682, 'grad_norm': 0.5922847986221313, 'learning_rate': 2.0338983050847455e-05, 'epoch': 18.59\}                                                    \
+\{'loss': 0.5662, 'grad_norm': 1.8947662115097046, 'learning_rate': 1.6101694915254237e-05, 'epoch': 18.87\}                                                    \
+\{'loss': 0.5545, 'grad_norm': 1.881566047668457, 'learning_rate': 1.1864406779661016e-05, 'epoch': 19.16\}                                                     \
+\{'loss': 0.5587, 'grad_norm': 0.6659414768218994, 'learning_rate': 7.627118644067796e-06, 'epoch': 19.44\}                                                     \
+\{'loss': 0.5841, 'grad_norm': 2.3446686267852783, 'learning_rate': 3.389830508474576e-06, 'epoch': 19.72\}                                                     \
+ 99%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9611  | 7000/7080 [3:48:34<02:35,  1.95s/it/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\
+  _warn_prf(average, modifier, f"\{metric.capitalize()\} is", len(result))\
+Validation Report:\
+              precision    recall  f1-score   support\
+\
+           0       0.74      1.00      0.85       234\
+           1       0.00      0.00      0.00        81\
+\
+    accuracy                           0.74       315\
+   macro avg       0.37      0.50      0.43       315\
+weighted avg       0.55      0.74      0.63       315\
+\
+Confusion Matrix:\
+[[234   0]\
+ [ 81   0]]\
+\{'eval_loss': 0.5723078846931458, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1_binary': 0.0, 'eval_accuracy': 0.7428571428571429, 'eval_runtime': 27.4291, 'eval_samples_per_second': 11.484, 'eval_steps_per_second': 2.88, 'epoch': 19.72\}                                                                         \
+\{'train_runtime': 13903.2962, 'train_samples_per_second': 4.078, 'train_steps_per_second': 0.509, 'train_loss': 0.5741422777122024, 'epoch': 19.94\}           \
+100%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 7080/7080 [3:51:43<00:00,  1.96s/it]\
+events.out.tfevents.1737942067.Mac.77870.0: 100%|\uc0\u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 \u9608 | 24.0k/24.0k [00:00<00:00, 120kB/s]\
+(base)\
+\
+\
+\
+\
+\
+\
+\
+True Positives:  34\
+True Negatives:  59\
+False Positives:  5\
+False Negatives:  0\
+\
+\
+\
+\
+True Positives: 0\
+True Negatives: 64\
+False Positives: 0\
+False Negatives: 34}
