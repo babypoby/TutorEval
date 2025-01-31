@@ -7,7 +7,7 @@ This project introduces an **automatic evaluation framework** designed to assess
 1. **Do not reveal the answer** 
 2. **Promote active engagement** 
 3. **Communicate with positive tone** 
-4. **Address and identify misconceptions** 
+4. **Identify and address misconceptions** 
 
 ## 🔍 Overview
 
