@@ -13,7 +13,7 @@ We utilize the Bridge and MathDial datasets, which contain real-life student-tea
 
 In addition to prompting, we explore a fine-tuning approach to determine if performance improvements can be made, particularly for the rubric "Communicate with positive tone." As a practical application, we rate the tutors in the Bridge and MathDial datasets to assess their pedagogical effectiveness according to the rubrics.
 
-images/plan.png
+![alt text](https://github.com/babypoby/bachelorarbeit/images/plan.png)
 
 This work was part of my Bachelor's thesis at ETH Zurich, completed in January 2025.
 
