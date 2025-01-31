@@ -17,28 +17,19 @@ In addition to prompting, we explore a fine-tuning approach to determine if perf
 
 This work was part of my Bachelor's thesis at ETH Zurich, completed in January 2025.
 
-## Project Structure
 project-root/
-│
 ├── data-visualisation/
-│ └── # Code for generating matplotlib graphs used in the thesis
-│
+│   └── # Code for generating matplotlib graphs used in the thesis
 ├── datasets/
-│ └── # Raw, filtered, and annotated datasets
-│
+│   └── # Raw, filtered, and annotated datasets
 ├── datasources/
-│ └── # References to MathDial and Bridge repositories
-│
+│   └── # References to MathDial and Bridge repositories
 ├── finetuning/
-│ └── # Code for the fine-tuning approach
-│
+│   └── # Code for the fine-tuning approach
 ├── images/
-│ └── # Graphs used in the thesis
-│
+│   └── # Graphs used in the thesis
 ├── label-web-bridge/
-│ └── # Annotation interface and data processing code for MathDial and Bridge datasets
-│
+│   └── # Annotation interface and data processing code for MathDial and Bridge datasets
 ├── prompt_eval/
-│ └── # Code for the prompting approach
-│
+│   └── # Code for the prompting approach
 └── README.md
