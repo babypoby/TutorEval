@@ -1,0 +1,101 @@
+conversation_id,id,text,user
+2570448_42_1,42,The value of 10+4 is 14.,tutor
+2570448_42_1,43,"Therefore, the final answer is 14.",tutor
+2570448_42_1,44,Do you understand what I did?,tutor
+2570448_42_1,45,yes,student
+2570448_42_2,42,The value of 10+4 is 14.,tutor
+2570448_42_2,43,"Therefore, the final answer is 14.",tutor
+2570448_42_2,44,Do you understand what I did?,tutor
+2570448_42_2,45,yes,student
+2580534_104_1,104,The next question is here for you.,tutor
+2580534_104_1,105,Go ahead and give your best work on it.,tutor
+2580534_104_1,106,Is this your final answer?,tutor
+2580534_104_1,107,yes,student
+2580534_104_2,104,The next question is here for you.,tutor
+2580534_104_2,105,Go ahead and give your best work on it.,tutor
+2580534_104_2,106,Is this your final answer?,tutor
+2580534_104_2,107,yes,student
+2580534_34_1,34,You earn one point for your good beginning.,tutor
+2580534_34_1,35,That was a good try.,tutor
+2580534_34_1,36,What is the value of 3^3?,tutor
+2580534_34_1,37,9,student
+2580534_34_2,34,You earn one point for your good beginning.,tutor
+2580534_34_2,35,That was a good try.,tutor
+2580534_34_2,36,What is the value of 3^3?,tutor
+2580534_34_2,37,9,student
+2850057_13_1,13,"In this question, we have to find the two in 2,453 different from the two in 204,530.",tutor
+2850057_13_1,14,yes,student
+2850057_13_1,15,"What is the value of 2 in 2,453?",tutor
+2850057_13_1,16,223,student
+2850057_13_2,13,"In this question, we have to find the two in 2,453 different from the two in 204,530.",tutor
+2850057_13_2,14,yes,student
+2850057_13_2,15,"What is the value of 2 in 2,453?",tutor
+2850057_13_2,16,223,student
+2850095_108_1,108,no,student
+2850095_108_1,109,Here is the next question.,tutor
+2850095_108_1,110,Would you like to give it a try?,tutor
+2850095_108_1,111,it is 68,student
+2850095_108_2,108,no,student
+2850095_108_2,109,Here is the next question.,tutor
+2850095_108_2,110,Would you like to give it a try?,tutor
+2850095_108_2,111,it is 68,student
+2850525_35_1,35,yes,student
+2850525_35_1,36,Okay!,tutor
+2850525_35_1,37,What should he measure?,tutor
+2850525_35_1,38,the dimensional area,student
+2850525_35_2,35,yes,student
+2850525_35_2,36,Okay!,tutor
+2850525_35_2,37,What should he measure?,tutor
+2850525_35_2,38,the dimensional area,student
+2856156_34_1,34,Now we need to find the total number of right angles.,tutor
+2856156_34_1,35,ok,student
+2856156_34_1,36,What is the sum of 2+0+1+1?,tutor
+2856156_34_1,37,3,student
+2856156_34_2,34,Now we need to find the total number of right angles.,tutor
+2856156_34_2,35,ok,student
+2856156_34_2,36,What is the sum of 2+0+1+1?,tutor
+2856156_34_2,37,3,student
+2856167_175_1,175,Please solve the problem.,tutor
+2856167_175_1,176,done,student
+2856167_175_1,177,Is that your answer?,tutor
+2856167_175_1,178,yes,student
+2856167_175_2,175,Please solve the problem.,tutor
+2856167_175_2,176,done,student
+2856167_175_2,177,Is that your answer?,tutor
+2856167_175_2,178,yes,student
+2856167_18_1,18,That's really correct answer.,tutor
+2856167_18_1,19,Plus 1 point added in your total.,tutor
+2856167_18_1,20,Are all the sides of the playground straight?,tutor
+2856167_18_1,21,no,student
+2856167_18_2,18,That's really correct answer.,tutor
+2856167_18_2,19,Plus 1 point added in your total.,tutor
+2856167_18_2,20,Are all the sides of the playground straight?,tutor
+2856167_18_2,21,no,student
+2856167_86_1,86,"Parallelograms, rectangles, squares, and rhombuses all have 2 pairs of parallel sides.",tutor
+2856167_86_1,87,A trapezoid is a four sided shape with only 1 pair of parallel sides.,tutor
+2856167_86_1,88,What type of quadrilateral is the pool?,tutor
+2856167_86_1,89,pentagon,student
+2856167_86_2,86,"Parallelograms, rectangles, squares, and rhombuses all have 2 pairs of parallel sides.",tutor
+2856167_86_2,87,A trapezoid is a four sided shape with only 1 pair of parallel sides.,tutor
+2856167_86_2,88,What type of quadrilateral is the pool?,tutor
+2856167_86_2,89,pentagon,student
+2856205_121_1,121,Plus one point for you.,tutor
+2856205_121_1,122,Here is your next problem.,tutor
+2856205_121_1,123,Is that your final answer?,tutor
+2856205_121_1,124,1 an 3,student
+2856205_121_2,121,Plus one point for you.,tutor
+2856205_121_2,122,Here is your next problem.,tutor
+2856205_121_2,123,Is that your final answer?,tutor
+2856205_121_2,124,1 an 3,student
+2856205_78_1,78,"Okay, here comes the next one.",tutor
+2856205_78_1,79,done,student
+2856205_78_1,80,Is that your final answer?,tutor
+2856205_78_1,81,yes,student
+2856205_78_2,78,"Okay, here comes the next one.",tutor
+2856205_78_2,79,done,student
+2856205_78_2,80,Is that your final answer?,tutor
+2856205_78_2,81,yes,student
+2856614_71_1,71,Please read the question carefully.,tutor
+2856614_71_1,72,What we are asked to do here?,tutor
+2856614_71_1,73,Are you still connected with me in session?,tutor
+2856614_71_1,74,im ser,student
