@@ -35,8 +35,8 @@ for i in range(4):
     j += 1
 
 # Add labels and title
-plt.ylabel('Models sorted from smallest du largest')
-plt.xlabel('Error Rate')
+plt.xlabel('Models sorted from smallest to largest')
+plt.ylabel('Accuracy')
 plt.title('Accuracy correlated with Model Size for each Rubric')
 plt.legend()
 

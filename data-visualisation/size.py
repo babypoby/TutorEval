@@ -17,7 +17,7 @@ for i in range(4):
         j = j+1
      # Remove NaNs while keeping the structure of the data
     x_segment = x[i*7:(i+1)*7]
-    y_segment = y_simple_ex[i*7:(i+1)*7]
+    y_segment = y_detailed_ex[i*7:(i+1)*7]
     valid_indices = ~np.isnan(y_segment)
     x_clean = np.array(x_segment)[valid_indices]
     y_clean = np.array(y_segment)[valid_indices]
@@ -33,7 +33,7 @@ for i in range(4):
     j += 1
 
 # Add labels and title
-plt.xlabel('Models sorted from smallest du largest')
+plt.xlabel('Models sorted from smallest to largest')
 plt.ylabel('F1 Score')
 plt.title('F1 score correlated with Model Size for each Rubric')
 plt.legend()
