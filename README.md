@@ -1,6 +1,6 @@
 # 🎓 Automatic Evaluation of Tutor Responses Using Large Language Models
 
-This project introduces an **automatic evaluation framework** designed to assess the pedagogical effectiveness of tutor responses using prompting and fine-tuning approaches. Our framework evaluates tutor responses based on four key rubrics:
+This project introduces an **automatic evaluation framework** designed to assess the **pedagogical effectiveness of tutor responses** using prompting and fine-tuning approaches. Our framework evaluates tutor responses based on four key rubrics:
 
 ### 📋 Evaluation Rubrics:
 
